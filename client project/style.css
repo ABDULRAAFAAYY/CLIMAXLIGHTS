@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  nav{
+    border-bottom: 10px solid rgb(0, 0, 0);
+  }
+  .customcss>h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Monoton', cursive;
+    text-decoration: underline red;
+    transition: 2s;
+  }
+  
+  .media {
+    background-image: url('images/professional-firefighter-dressed-uniform-oxygen-mask-standing-fire-sparks-smoke-dark-background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    padding-top: 300px;
+    padding-bottom: 300px;
+  
+  }
+  
+  .customcss>p {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transition: 2s;
+    text-align: center;
+    text-decoration: overline solid 3px red;
+  }
+  
+  .aboutus>h1 {
+    border-bottom: 3px solid rgb(0, 0, 0);
+    border-top: 3px solid rgb(3, 3, 3);
+    transition: 2s;
+  }
+  
+  .aboutuss>h3 {
+    border-bottom: 3px solid rgb(0, 0, 0);
+    border-top: 3px solid rgb(0, 0, 0);
+    transition: 2s;
+  }
+  
+  .aboutuss>p {
+    transition: 2s;
+  }
+  
+  .div_aboutus {
+    margin-top: 20px;
+    background-image: url('images/fire.png');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  .bgimg_safetyinstructor {
+    background-image: url('./images/WhatsApp\ Image\ 2023-01-04\ at\ 2.45.16\ AM.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  .for_shadow {
+    box-shadow: 10px 10px 10px 4px black;
+    background-color: orange
+  }
+  
+  .for_hover:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    padding: 10px;
+    transform: scale(1);
+  }
+  
+  textarea:focus {
+    background-color: white;
+  }
+  
+  input:focus {
+    background-color: white;
+  }
+  
+  input:hover {
+    transform: scale(1.5);
+  }
+  
+  textarea:hover {
+    transform: scale(1.5);
+  }
+  
+  input {
+    background-color: rgb(246, 188, 140);
+    padding: 10px 10px 10px 20px;
+    border-color: brown;
+    border-radius: 25px;
+  }
+  
+  textarea {
+    background-color: rgb(246, 188, 140);
+    border-color: brown;
+    padding: 10px 10px 10px 20px;
+  }
+  
+  .for_border {
+    border: 10px solid rgb(8, 8, 8);
+  }
+  
+  .brand {
+    border-bottom: 3px solid rgb(15, 15, 15);
+    border-top: 3px solid rgb(12, 12, 12);
+  }
+  
+  .color>p {
+    background-color: rgba(254, 0, 0, 0.2);
+    color: white;
+    font-size: 30px;
+    /* text-decoration: underline red; */
+    text-align: center;
+  }
+  
+  .colorr>p {
+    text-shadow: 50px 50px 50px 50px 50px red;
+    text-decoration: underline red;
+    border-bottom: 5px solid red;
+  }
+  
+  .parent {
+    background-color: rgba(254, 0, 0, 0.2);
+  }
+  .list:hover{
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.5s;
+    padding-left: 30px;
+    border-radius: 20px;
+    transform: scale(1);
+    background-color: red;
+  }
+  
+  @media only screen and (max-width: 768px) {
+  
+    /* For mobile phones: */
+    .bgimg_safetyinstructor {
+      background-image: url('./images/pic.jpeg');
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+  
+    /* For mobile phones: */
+    .media {
+      background-image: url('./images/pexels-michael-noel-4741693.jpg');
+      width: 100%;
+    }
+  }
+  /* For Scroll */
+  ::-webkit-scrollbar{
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track{
+    background-color: whitesmoke;
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: red;
+    border-radius: 30px;
+  }
